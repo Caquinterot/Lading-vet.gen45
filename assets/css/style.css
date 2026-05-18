@@ -55,8 +55,19 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 	background-color: var(--color-light);
-	font-family: 'Onest', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
-		Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family:
+		'Onest',
+		system-ui,
+		-apple-system,
+		BlinkMacSystemFont,
+		'Segoe UI',
+		Roboto,
+		Oxygen,
+		Ubuntu,
+		Cantarell,
+		'Open Sans',
+		'Helvetica Neue',
+		sans-serif;
 	font-optical-sizing: auto;
 	color: var(--color-dark);
 	overflow-x: hidden;
@@ -173,7 +184,8 @@ body {
 	z-index: 3;
 	height: 100dvh;
 	width: 100%;
-	background: url(../img/logo-paw-white.svg) center center / 30% no-repeat,
+	background:
+		url(../img/logo-paw-white.svg) center center / 30% no-repeat,
 		var(--third-color);
 	animation: resize linear both;
 	animation-timeline: scroll();
@@ -333,7 +345,8 @@ body {
 		width: 2rem;
 		margin: 1rem;
 		border-radius: 24px;
-		background: url(../img/logo-paw-white.svg) center center/ 80% no-repeat,
+		background:
+			url(../img/logo-paw-white.svg) center center/ 80% no-repeat,
 			var(--primary-color);
 
 		--font-size-xl: 2.2rem;
@@ -352,7 +365,8 @@ body {
 	height: 100dvh;
 	width: 100dvw;
 	flex-direction: column;
-	background: linear-gradient(#b733f98c, #ff7e5f8c, transparent),
+	background:
+		linear-gradient(#b733f98c, #ff7e5f8c, transparent),
 		url(../img/hero-dog.avif) no-repeat center center/cover;
 	color: var(--color-light);
 	text-align: center;
